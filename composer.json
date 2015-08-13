@@ -4,13 +4,13 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Abed Halawi",
-            "email": "abed.halawi@vinelab.com"
+            "name": "MegaMaster",
+            "email": "MegaMaster@example.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "5.*",
+        "illuminate/support": "5.1.*",
         "vinelab/http": "*"
     },
     "require-dev": {
