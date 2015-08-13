@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/Vinelab/RSS.png)](https://travis-ci.org/Vinelab/RSS)
+[![Build Status](https://travis-ci.org/MegaMaster/RSS.png)](https://travis-ci.org/MegaMaster/RSS)
 
 ## RSS 2.0 Client
 
 ## Installation
-Refer to [megamaster/rss on packagist.org](https://packagist.org/packages/vinelab/rss) for composer installation instructions.
+Refer to [MegaMaster/rss on packagist.org](https://packagist.org/packages/MegaMaster/rss) for composer installation instructions.
 
 Edit **app.php** and add ```'MegaMaster\Rss\RssServiceProvider',``` to the ```'providers'``` array.
 
