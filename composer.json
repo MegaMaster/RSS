@@ -1,6 +1,6 @@
 {
-    "name": "MegaMaster/rss",
-    "description": "An elegant RSS 2.0 parser.",
+    "name": "megamaster/rss",
+    "description": "An RSS parser.",
     "license": "MIT",
     "authors": [
         {
