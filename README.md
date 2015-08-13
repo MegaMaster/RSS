@@ -3,11 +3,11 @@
 ## RSS 2.0 Client
 
 ## Installation
-Refer to [vinelab/rss on packagist.org](https://packagist.org/packages/vinelab/rss) for composer installation instructions.
+Refer to [megamaster/rss on packagist.org](https://packagist.org/packages/vinelab/rss) for composer installation instructions.
 
-Edit **app.php** and add ```'Vinelab\Rss\RssServiceProvider',``` to the ```'providers'``` array.
+Edit **app.php** and add ```'MegaMaster\Rss\RssServiceProvider',``` to the ```'providers'``` array.
 
-It will automatically alias itself as **RSS** so no need to aslias it in your **app.php** unless you would like to customize it. In that case edit your **'aliases'** in **app.php** adding ``` 'MyRSS'    => 'Vinelab\Rss\Facades\RSS',```
+It will automatically alias itself as **RSS** so no need to aslias it in your **app.php** unless you would like to customize it. In that case edit your **'aliases'** in **app.php** adding ``` 'MyRSS'    => 'MegaMaster\Rss\Facades\RSS',```
 
 ## Usage
 
@@ -17,7 +17,7 @@ It will automatically alias itself as **RSS** so no need to aslias it in your **
 
 $feed = RSS::feed('http://feeds.reuters.com/news/artsculture');
 
-// $feed is now an instance of Vinelab\Rss\Feed
+// $feed is now an instance of MegaMaster\Rss\Feed
 
 $count = $feed->articlesCount(); // 10
 
@@ -50,11 +50,11 @@ $articles = $feed->articles();
     This is a child from Illuminate\Support\Collection, which means
     you can apply any of the applicable functionalities to it.
 
-    object(Vinelab\Rss\ArticlesCollection)[213]
+    object(MegaMaster\Rss\ArticlesCollection)[213]
       protected 'items' =>
         array (size=10)
           0 =>
-            object(Vinelab\Rss\Article)[236]
+            object(MegaMaster\Rss\Article)[236]
               protected 'info' =>
                 array (size=6)
                   ...
